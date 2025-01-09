@@ -1,0 +1,32 @@
+/* OUr Blog Sectoin */
+
+
+
+.our-blog{
+    margin-top: 200px;
+}
+
+.blog-container{
+  margin-top: 100px;
+}
+
+.blog-container h5{
+  margin-top: 50px;
+  color: gray;
+}
+
+.padding{
+  padding: 50px;
+}
+
+
+
+
+@media (max-width: 753) {
+  
+  .padding{
+    padding: 0px;
+    background-color: red;
+  }
+
+}

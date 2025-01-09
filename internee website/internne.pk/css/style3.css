@@ -1,0 +1,62 @@
+.every-month{
+  margin-top: 200px;
+}
+
+
+
+.every-month p {
+  color: gray;
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .every-month p {
+    padding-right: 50px;
+  }
+
+  .every-month button {
+    margin-left: 20px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .every-month p {
+    padding-right: 150px;
+  }
+
+  .every-month button {
+    margin-left: 200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Internship Every Month */
+
+.card1{
+  border-radius: 10px;
+}
+.card-img-top {
+  border-radius: 10px;
+  width: 100%;
+  height: auto; /* Or any other fixed height you prefer */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+
+.apply-btn2{
+  background-color: #43a724;
+  width: 120px;
+  color: white;
+  margin-top: 25px;
+}

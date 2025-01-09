@@ -1,0 +1,18 @@
+/* Our LMS */
+
+.task-img2 {
+  width: 100%;
+  position: relative;
+  animation: float 2s infinite alternate ease-in-out; /* Apply float animation */
+}
+
+
+.footer-img{
+
+  display: flex;
+}
+
+.footer-imge{
+  width: 10%;
+  margin-right: 10px;
+}

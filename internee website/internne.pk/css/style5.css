@@ -1,0 +1,77 @@
+/* Our Own Task Portal */
+
+.portal{
+  margin-top: 300px;
+  margin-bottom: 200px;
+  overflow: hidden;
+
+
+}
+
+
+.task-img {
+  width: 100%;
+  position: relative;
+  animation: float 2s infinite alternate ease-in-out; /* Apply float animation */
+  margin-left: -100px;
+}
+
+/* Float animation for up and down movement */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+
+.description{
+  padding: 30px;
+  color: gray;
+}
+
+.svg{
+  width: 30%;
+}
+
+@media (max-width: 767px) {
+
+  
+
+
+  .svg{
+    width: 10%;
+  }
+
+
+  .task-img{
+    margin-left: 0px;
+
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
+/* why internee.pk  */
+
+
+.icon-env{
+  display: inline;
+}
+
+.text-env{
+  display: inline;
+}
